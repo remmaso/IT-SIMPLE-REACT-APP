@@ -1,0 +1,21 @@
+.companies-page .company-item {
+  align-items: center;
+  border: 1px solid #E7ECF3;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin: 20px -15px;
+}
+
+.companies-page .logo-div {
+  padding: 22px;
+  width: 94px;
+  height: 94px;
+  align-self: flex-start;
+}
+
+.companies-page .logo-div .logo {
+  border: 2px solid #E7ECF3;
+  border-radius: 8px;
+  height: 50px;
+  width: 50px;
+}

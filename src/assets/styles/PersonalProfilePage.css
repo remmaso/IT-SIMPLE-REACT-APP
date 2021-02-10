@@ -1,0 +1,312 @@
+.personal-profile {
+  padding: 0px;
+}
+
+.personal-profile .section {
+  margin: 50px 0px 30px;
+}
+
+.personal-profile .section .section-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 140%;
+  color: #0C152E;
+  margin-bottom: 24px;
+}
+
+.personal-profile .section .section-body {
+  padding: 30px;
+  background: #FFFFFF;
+  border: 1px solid rgba(231, 236, 243, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 14px rgba(0, 50, 96, 0.04);
+  border-radius: 8px;
+}
+
+.personal-profile .section .section-body .form-label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0C152E;
+  margin-bottom: 10px;
+}
+
+.personal-profile .section .section-body .form-input {
+  background: #FFFFFF;
+  border: 1px solid #E7ECF3;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0C152E;
+  padding: 18px 20px;
+  height: auto;
+}
+
+.personal-profile .section .section-body .avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin: 6px;
+}
+
+.personal-profile .section .section-body .avatar-close {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #EB5928;
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  right: 25px;
+}
+
+.personal-profile .section .section-body .upload-photo {
+  padding: 18px 30px;
+  background: #FFFFFF;
+  border: 1px solid #E7ECF3;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 0px rgba(231, 236, 243, 0.3);
+  border-radius: 4px;
+  color: #888E9E;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+  text-decoration: none;
+  margin-top: 0px;
+  width: 199px;
+  align-items: center;
+  display: flex;
+}
+
+.personal-profile .section .section-body .upload-description {
+  color: #888E9E;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.personal-profile .section .section-body .file-input {
+  display: none;
+}
+
+.personal-profile .section .section-body .check-txt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0C152E;
+  margin-left: 10px;
+}
+
+.personal-profile .section .section-body .delete-account {
+  padding: 30px;
+  background: #F5F7FA;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+}
+
+.personal-profile .section .section-body .delete-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0C152E;
+}
+
+.personal-profile .section .section-body .delete-description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #888E9E;
+  margin-top: 8px;
+}
+
+.personal-profile .section .section-body .delete-account .delete-btn {
+  background: #EB5928;
+  border-radius: 4px;
+  margin: 0px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+  padding: 18px 30px;
+  align-items: center;
+  display: flex;
+}
+
+.personal-profile .section.my-applications .section-header {
+  margin-bottom: 30px;
+}
+
+.personal-profile .section.my-applications .section-body {
+  padding: 0px 15px;
+  border: none;
+}
+
+.personal-profile .section.my-applications .section-body  .offer-item {
+  border-bottom: none;
+}
+
+.personal-profile .section.my-applications .section-body .offer-item:last-child {
+  border-bottom: 1px solid #E7ECF3;
+  ;
+}
+
+.personal-profile .offer-item {
+  align-items: center;
+  border: 1px solid #E7ECF3;
+  border-radius: 0px;
+  box-sizing: border-box;
+}
+
+.personal-profile .offer-item .logo-div {
+  padding: 22px;
+  width: 94px;
+  height: 94px;
+  align-self: flex-start;
+}
+
+.personal-profile .offer-item .logo {
+  border: 2px solid #E7ECF3;
+  border-radius: 8px;
+  height: 50px;
+  width: 50px;
+}
+
+.personal-profile .offer-item .logo-tech {
+  position: relative;
+  right: -30px;
+  bottom: 23px;
+}
+
+.personal-profile .offer-item .item-left {
+  padding-top: 22px;
+  padding-bottom: 24px;
+}
+
+.personal-profile .offer-item .item-left .title {
+  color: #0C152E;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  margin-bottom: 6px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.personal-profile .offer-item .item-left .experience {
+  border-radius: 26px;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 10px;
+  padding: 0 15px;
+  height: 25px;
+  text-transform: capitalize;
+}
+
+.personal-profile .offer-item .item-left .contract_type>div:first-child {
+  border: 1px solid #E7ECF3;
+}
+
+.personal-profile .offer-item .item-left .contract_type>div {
+  border: 1px dotted #E7ECF3;
+  border-radius: 50px;
+  box-sizing: border-box;
+  color: #888E9E;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 23px;
+  margin-left: 10px;
+  padding: 0 15px;
+  height: 25px;
+}
+
+.personal-profile .offer-item .item-left .location {
+  color: #888E9E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.personal-profile .offer-item .item-right {
+  padding-right: 30px;
+  padding-top: 19px;
+  padding-bottom: 18px;
+}
+
+.personal-profile .offer-item .item-right .skills>div {
+  align-self: center;
+  border: 1px solid #E7ECF3;
+  border-radius: 50px;
+  box-sizing: border-box;
+  color: #888E9E;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-left: 9px;
+  padding: 0 20px;
+}
+
+.personal-profile .offer-item .salary {
+  color: #0C152E;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+.personal-profile .offer-item .item-right .skills, .personal-profile .offer-item .item-left .contract_type {
+  margin: unset;
+}
+
+
+.personal-profile .action-row {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0px;
+}
+
+.personal-profile .action-row .active {
+  border-radius: 4px;
+  padding: 18px 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  margin: 0px;
+}
+
+.personal-profile .action-row .cancel {
+  background-color: #EB5928;
+}
+
+.personal-profile .action-row .save {
+  background-color: #054AFA;
+  margin-left: 30px;
+}

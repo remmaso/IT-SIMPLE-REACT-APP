@@ -1,0 +1,573 @@
+.offer_details.editable .header {
+  background: linear-gradient(19.4deg, #888E9E 0%, #525C78 85.53%);
+}
+
+.offer_details.editable .header .container {
+  min-height: 215px;
+}
+
+.offer_details.editable .header .container>div:first-child {
+  min-height: 75px;
+}
+
+.offer_details.editable .header .container>div:nth-child(2) {
+  height: 220px;
+}
+
+.offer_details.editable .header .container>div:nth-child(2)>div:last-child {
+  height: 100%;
+  vertical-align: top;
+}
+
+.offer_details.editable .header .container .title {
+  color: #FFF;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.offer_details.editable .header .container .logo {
+  box-shadow: 0 4px 14px rgba(0, 50, 96, 0.04);
+  height: 170px;
+  width: 170px;
+  align-self: start;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.offer_details.editable .container .file-input {
+  display: none;
+}
+
+.offer_details.editable .header .container .sub_title {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.offer_details.editable .header .container .navigation.editable {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(150, 156, 182, 0.1);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.offer_details.editable .sub_header {
+  background: rgba(231, 236, 243, 0.4);
+}
+
+.offer_details.editable .sub_header .container {
+  min-height: unset;
+}
+
+.offer_details.editable .sub_header .contract_details>div {
+  color: #888E9E;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center;
+  width: 100%;
+}
+
+.offer_details.editable .sub_header .contract_details>div>div {
+  line-height: 17px;
+  padding-top: 8px;
+}
+
+.offer_details.editable .sub_header .contract_details>div>div:nth-child(1) {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.offer_details.editable .sub_header .contract_details>div>div:nth-child(3) {
+  color: #0C152E;
+  font-weight: 600;
+}
+
+.offer_details.editable .office_image {
+  height: 266px;
+  border-radius: 4px;
+  text-align: center;
+  display: flex;
+  padding: 0px!important;
+  margin: 15px 0px;
+  border: 1px dashed #DFE5EE;
+}
+
+.offer_details.editable .office_image .job_default_image {
+  margin: auto;
+  color: #888E9E;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.offer_details.editable .office_image>img {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.offer_details.editable .section .section_header {
+  color: #0C152E;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer_details.editable .section>textarea {
+  padding: 18px 20px;
+  border-radius: 4px;
+  border: 1px solid #E7ECF3;
+}
+
+.offer_details.editable .section .sub_title {
+  color: #0C152E;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+
+.offer_details.editable .section>.sub_title {
+  padding: 15px 0px 0px;
+}
+
+.offer_details.editable .section .section_body .stack_row {
+  margin: 0px -15px 30px 0px!important;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid rgba(231, 236, 243, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 14px rgba(0, 50, 96, 0.04);
+  border-radius: 8px;
+}
+
+.offer_details.editable .section .section_body .stack_row.create_row {
+  background: #F5F7FA;
+}
+
+.offer_details.editable .section .section_body .stack_row.update_row {
+  background: #ffffff;
+}
+
+.offer_details.editable .section .section_body .stack_row select:invalid {
+  color: #888E9E
+}
+
+.offer_details.editable .section .section_body .stack_row select option {
+  color: #0C152E
+}
+
+.offer_details.editable .section .section_body select {
+  background-position: calc(100% - 20px) calc(1em + 10px), calc(100% - 15px) calc(1em + 10px), 100% 0;
+  background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(45deg, transparent 50%, #888E9E 50%), linear-gradient(135deg, #888E9E 50%, transparent 50%);
+  background-color: white;
+  font-weight: 500;
+}
+
+.offer_details.editable .section .section_body .stack_row .col-12 {
+  padding-left: 0px;
+}
+
+.offer_details.editable .section .section_body .stack_row .col-5 {
+  padding-left: 0px;
+}
+
+.offer_details.editable .section .section_body .stack_row .col-3 {
+  padding-left: 0px;
+}
+
+.offer_details.editable .section .section_body .stack_row .col-6 {
+  padding-left: 0px;
+}
+
+.offer_details.editable .section .section_body .stack_row>.action {
+  align-self: flex-end;
+}
+
+.offer_details.editable .section .section_body input::placeholder {
+  color: #888E9E;
+}
+
+.offer_details.editable .section .section_body .trash-icon {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  color: #EB5928;
+}
+
+.offer_details.editable .section .section_body .tech_stack {
+  background: #FFF;
+  border: 1px solid rgba(231, 236, 243, 0.5);
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 50, 96, 0.04);
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.offer_details.editable .section .section_body .tech_stack>.row>div {
+  padding: 20px 2px;
+}
+
+.offer_details.editable .section .section_body .tech_stack>div:nth-child(2) {
+  color: #0C152E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.offer_details.editable .section .section_body .tech_stack>.row>div>div {
+  background: #888E9E;
+  border-radius: 50px;
+  height: 5px;
+  opacity: .2;
+  width: 100%;
+}
+
+.offer_details.editable .section .section_body .tech_stack>.row>.selected>div {
+  background: #054AFA;
+  opacity: unset;
+}
+
+.offer_details.editable .section .section_body .work_methodology .row>div {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.offer_details.editable .section .section_body .work_methodology .row>div:first-child {
+  color: #888E9E;
+}
+
+.offer_details.editable .section .section_body .daily_tasks>.row {
+  border-bottom: 1px solid #E7ECF3;
+  padding: 20px 0;
+}
+
+.offer_details.editable .section .section_body .daily_tasks>.row>div:first-child>div {
+  border: 1px solid #054AFA;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(5, 74, 250, 0.3);
+  box-sizing: border-box;
+  color: #054AFA;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  width: 25px;
+}
+
+.offer_details.editable .section .section_body .simple_pair>div:first-child {
+  color: #888E9E;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.offer_details.editable .section .section_body .simple_pair>div:last-child {
+  color: #0C152E;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+}
+
+.offer_details.editable .section .section_body .simple_pair>div:last-child>i:before {
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.offer_details.editable .section .section_body .extra {
+  color: #888E9E;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  padding: 15px 0;
+}
+
+.offer_details.editable .section .section_body .extra>i:before, .offer_details.editable .section .section_body .work_methodology .row>div:last-child>i {
+  border: 1px solid #054AFA;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(5, 74, 250, 0.3);
+  box-sizing: border-box;
+  color: #054AFA;
+  padding: 4px;
+}
+
+.offer_details.editable .section .section_body .os-select {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-right: -10px;
+}
+
+.offer_details.editable .section .section_body .os-row {
+  background: white;
+  align-items: center;
+  border: 1px solid #E7ECF3;
+  border-radius: 4px;
+  display: flex;
+  padding: 15px 0px;
+  /* margin-right: 20px; */
+}
+
+.offer_details.editable .section .section_body .os-col {
+  width: 210px;
+}
+
+.offer_details.editable .section .section_body .os-select .col-4 {
+  padding: 0px;
+}
+
+.offer_details.editable .floating .container>div {
+  height: unset;
+}
+
+.offer_details.editable .floating .container .row .content {
+  background: #FFF;
+  border-radius: 8px;
+  box-shadow: 0 4px 14px rgba(0, 50, 96, 0.1);
+  padding: 30px;
+  pointer-events: auto;
+}
+
+.offer_details.editable .floating .salary_switch {
+  border: 1px solid #E7ECF3;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(150, 156, 182, 0.1);
+  box-sizing: border-box;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  min-height: 36px;
+  padding: 4px;
+  height: 55px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.offer_details.editable .floating .salary_switch .col {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  min-height: 41px;
+}
+
+.offer_details.editable .floating .salary_switch .col>div {
+  width: 100%;
+}
+
+.floating .salary_switch .selected, .sub_header .selected, .section_body .stack_row .selected {
+  background: #888E9E;
+  color: #FFF;
+}
+
+.offer_details.editable .floating .per {
+  color: #888E9E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+
+.offer_details.editable .floating .active .col {
+  margin-left: -35px;
+}
+
+.offer_details.editable .floating .other {
+  border-top: 1px solid #E7ECF3;
+  padding-top: 30px;
+}
+
+.offer_details.editable .floating .other .active .row {
+  background: #FFF;
+  border: 1px solid #E7ECF3;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(231, 236, 243, 0.3);
+  box-sizing: border-box;
+  color: #888E9E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33px;
+  min-height: 52px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: unset;
+}
+
+.offer_details.editable .floating .other .row>.active:first-child {
+  margin-right: 10px;
+}
+
+.offer_details.editable .section .section_body .tech_stack>div:nth-child(3) {
+  color: #888E9E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+.offer_details.editable .header .container>div, .offer_details.editable .sub_header .container>div {
+  align-items: center;
+}
+
+.offer_details.editable .header .container .list_map>i:last-child, .floating .other .active .row:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.offer_details.editable .section, .offer_details.editable .section>div {
+  padding: 15px 0;
+}
+
+.offer_details.editable .section .section_body, .offer_details.editable .section .section_body .daily_tasks>.row>div:last-child {
+  color: #888E9E;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  /* background: rebeccapurple; */
+  /* padding: 30px;
+  padding-right: 45px; */
+}
+
+.offer_details.editable .section .section_body .work_methodology .row>div:last-child, .floating .loc_value>i:before {
+  color: #054AFA;
+}
+
+.offer_details.editable .section .section_body .work_methodology .row>div:last-child>span, .offer_details.editable .section .section_body .extra>span {
+  padding-left: 20px;
+}
+
+.offer_details.editable .section .section_body .edit-row {
+  margin-bottom: 20px;
+}
+
+.offer_details.editable .section .section_body input {
+  background-color: white;
+  border: 1px solid #E7ECF3
+}
+
+.offer_details.editable .section .section_body .action-col {
+  width: 52px;
+  height: 53px;
+  border-radius: 4px;
+  padding: 0px;
+}
+
+.offer_details.editable .section .section_body .action-col.add {
+  background-color: #054AFA;
+}
+
+.offer_details.editable .section .section_body .action-col.remove {
+  background-color: #EB5928;
+}
+
+.offer_details.editable .section .section_body .action-col .action-div {
+  line-height: 53px;
+  width: 52px;
+  text-align: center;
+}
+
+.offer_details.editable .section .section_body .action-col .action-icon {
+  width: 20px;
+  height: 20px;
+  padding: 3px;
+  font-size: 14px;
+  text-align: center;
+  border: solid white 1px;
+  color: white;
+}
+
+.offer_details.editable .section .section_body .action-col .action-icon.add {
+  border-radius: 10px;
+  /* background-color: #054AFA; */
+}
+
+.offer_details.editable .section .section_body .action-col .action-icon.renove {
+  border-radius: 2px;
+}
+
+.form_error {
+  outline: 1px solid red;
+  background: rgba(255, 0, 0, 0.1) !important;
+}
+
+.gm-err-autocomplete {
+  display: none;
+}
+
+.alternative {
+  display: none;
+}
+
+.gm-err-autocomplete+.alternative {
+  display: unset;
+}
+
+.offer_details.editable textarea {
+  width: 100%;
+}
+
+.offer_details.editable .action_btn {
+  margin: 0px 15px;
+}
+
+.offer_details.editable .action_btn .cancel {
+  background: #EB5928;
+  text-decoration: none!important;
+  margin-left: 100px!important;
+}
+
+.offer_details.editable .action_btn .save {
+  background: #888E9E;
+  text-decoration: none!important;
+}
+
+.offer_details.editable .action_btn .publish {
+  background: #054AFA;
+  text-decoration: none!important;
+}
+
+.offer_details.editable .action_btn>div {
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+  padding: 13px 30px;
+}
+
+.offer_details.editable .remote_section .input-group>div[data-value] {
+  position: relative;
+}
+
+.offer_details.editable .remote_section .input-group>div[data-value]:after {
+  content: attr(data-value) "%";
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  color: #888E9E;
+  font-weight: 400;
+}
+
+.offer_details.editable .remote_section .input-group>div[data-value] input {
+  color: transparent;
+}

@@ -1,0 +1,155 @@
+.company-profile {
+  padding: 0px;
+}
+
+.company-profile .section {
+  margin: 50px 0px 30px;
+}
+
+.company-profile .section .section-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 140%;
+  color: #0C152E;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-profile .section .sub-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 30px;
+  color: #0C152E;
+}
+
+.company-profile .section .section-body {
+  padding: 30px;
+  background: #FFFFFF;
+  border: 1px solid rgba(231, 236, 243, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 14px rgba(0, 50, 96, 0.04);
+  border-radius: 8px;
+}
+
+.company-profile .section .section-body .form-label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0C152E;
+  margin-bottom: 10px;
+}
+
+.company-profile .section .section-body .form-input {
+  background: #FFFFFF;
+  border: 1px solid #E7ECF3;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #0C152E;
+  padding: 18px 20px;
+  height: auto;
+}
+
+.company-profile .section .section-body .avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin: 6px;
+}
+
+.company-profile .section .section-body .avatar-close {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #EB5928;
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  right: 25px;
+}
+
+.company-profile .section .section-body .file-input {
+  display: none;
+}
+
+.company-profile .section .section-body .upload-photo {
+  padding: 18px 30px;
+  background: #FFFFFF;
+  border: 1px solid #E7ECF3;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 0px rgba(231, 236, 243, 0.3);
+  border-radius: 4px;
+  color: #888E9E;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+  text-decoration: none;
+  margin-top: 0px;
+  width: 199px;
+  align-items: center;
+  display: flex;
+}
+
+.company-profile .section .section-body .upload-description {
+  color: #888E9E;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.company-profile select {
+  background: hsla(0, 0%, 100%, 0);
+  border: 1px solid #E7ECF3;
+  height: 55px;
+  font-size: 14px;
+  line-height: 53px;
+  background-position: calc(100% - 20px) calc(1em + 10px), calc(100% - 15px) calc(1em + 10px), 100% 0;
+  background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(45deg, transparent 50%, #888E9E 0), linear-gradient(135deg, #888E9E 50%, transparent 0);
+  font-weight: 500;
+  padding: 0 20px;
+  border-radius: 4px;
+  width: 100%;
+  -webkit-appearance: none;
+}
+
+.company-profile .action-row {
+  display: flex;
+  justify-content: center;
+  margin: 80px 0px;
+}
+
+.company-profile .action-row .active, .company-profile .section-header .add {
+  border-radius: 4px;
+  padding: 18px 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  margin: 0px;
+}
+
+.company-profile .action-row .cancel {
+  background-color: #EB5928;
+}
+
+.company-profile .action-row .save, .company-profile .section-header .add {
+  background-color: #054AFA;
+  margin-left: 30px;
+}

@@ -1,0 +1,228 @@
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 50px 0;
+}
+
+:global(.editable) input.title_edit, .header_select>select {
+    height: 65px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+/* :global(.editable) .header_select>select ::after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+} */
+
+:global(.editable) select, :global(.editable) input {
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #9DA4B3;
+    height: 53px;
+    font-size: 14px;
+    line-height: 53px;
+    color: #0C152E;
+    padding: 0 20px;
+    border-radius: 4px;
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.title_edit {
+    background: rgba(255, 255, 255, 0)!important;
+    border: none!important;
+    border-radius: 0px!important;
+    padding-left: 0px!important;
+    border-bottom: 1px solid #9DA4B3!important;
+}
+
+.pencil_icon {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    font-size: 20px;
+}
+
+.header_select>select:hover {
+    background: rgba(255, 255, 255, 0.2);    
+    background-position: calc(100% - 20px) calc(1em + 10px), calc(100% - 15px) calc(1em + 10px), 100% 0;
+    background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, transparent 50%, white 50%), linear-gradient(135deg, white 50%, transparent 50%);
+}
+
+.header_select>select:focus {
+    background: rgba(255, 255, 255, 0.1);    
+    background-position: calc(100% - 20px) calc(1em + 10px), calc(100% - 15px) calc(1em + 10px), 100% 0;
+    background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, transparent 50%, white 50%), linear-gradient(135deg, white 50%, transparent 50%);
+}
+
+.title_edit:focus {
+    outline: unset;
+}
+
+.header_select>select {
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid #9DA4B3;
+    height: 53px;
+    font-size: 14px;
+    line-height: 53px;    
+    background-position: calc(100% - 20px) calc(1em + 10px), calc(100% - 15px) calc(1em + 10px), 100% 0;
+    background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(45deg, transparent 50%, white 50%), linear-gradient(135deg, white 50%, transparent 50%);
+    font-weight: 500;
+}
+
+
+.title_edit::placeholder, .header_select>select {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+select.selected_option {
+    opacity: 1.0;
+}
+
+.header_select>select>option {
+    color: #0C152E;
+}
+
+.contract_details {
+    height: 140px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    align-content: center;
+}
+
+.remote_section {
+    height: 53px;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.remote_section>div:first-child {
+    border: 1px solid rgba(150, 156, 182, 0.1);
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.remote_section :global(.active) {
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    font-size: 12px;
+    color: #888E9E;
+}
+
+.remote_section :global(.active.selected) {    
+    color: #ffffff;
+}
+
+
+
+/* .salary_edit :global(.active) .trash-icon:before {
+    line-height: 51px;
+    padding: 0 4px;
+} */
+
+.label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0C152E;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.title_salary {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    color: #0C152E;
+    padding-bottom: 30px;
+}
+
+.salary_edit {
+    margin-bottom: 90px;
+    padding-right: 0px;
+}
+
+.salary_edit :global(.col-12) {
+    padding: 0 !important;
+}
+
+.salary_edit select:invalid {
+    color: #888E9E
+}
+
+.salary_edit select option{
+    color: #0C152E
+}
+
+.salary_edit input::placeholder {
+    color: #888E9E;
+}
+
+.salary_edit input, .salary_edit select {
+    border: 1px solid #E7ECF3;
+}
+
+.salary_edit>div {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0,50,96,.1);
+    padding: 30px;
+    pointer-events: auto;
+    position: sticky;
+    top: 120px;
+    margin-top: -355px;
+}
+
+.salary_detail>div {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0,50,96,.1);
+    padding: 30px;
+    pointer-events: auto;
+    position: sticky;
+    top: 120px;
+    margin-top: -215px;
+}
+
+.os_selection {
+    background: #FFFFFF;
+    border: 1px solid #E7ECF3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+}
+
+.os_selected>div {
+    background: #054AFA;
+    border-radius: 2px;
+    width: 10px;
+    height: 10px;
+}

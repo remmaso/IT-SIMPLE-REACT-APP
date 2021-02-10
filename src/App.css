@@ -1,0 +1,144 @@
+@import "components/main/Header.css";
+@import "components/main/Footer.css";
+
+
+@import "assets/styles/AuthPage.css";
+@import "assets/styles/HomePage.css";
+@import "assets/styles/OfferDetailPage.css";
+@import "assets/styles/AddOfferPage.css";
+@import "assets/styles/CompanyProfilePage.css";
+@import "assets/styles/PersonalProfilePage.css";
+@import "assets/styles/CompanyDashboardPage.css";
+@import "assets/styles/CompaniesPage.css";
+
+#root {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+}
+
+.active:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.active {
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.inactive {
+    opacity: .6;
+}
+
+.container {
+    min-height: calc(100vh - 463px - 118px);
+}
+
+.loader {
+    padding-left: calc(50vh - 50px);
+    padding-top: calc((100vh - 463px - 118px) / 2 - 50px);
+}
+
+.next {
+    background: #FFF;
+    border: 1px solid #E7ECF3;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #888E9E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.seniority_junior {
+    background: #F9BC00;
+    color: #FFF;
+}
+
+.seniority_regular {
+    background: #888E9E;
+    color: #FFF;
+}
+
+.seniority_senior {
+    background: #054AFA;
+    color: #FFF;
+}
+
+.navigation {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+    margin: 10px 0;
+    padding: 10px 30px;
+    text-decoration-line: underline;
+}
+
+.pre_wrap {
+    white-space: pre-wrap;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.modal-content > div {
+    margin: 0px 30px;
+}
+
+/* Add Animation */
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #FFFFFF;
+}
+
+/* input.number {
+    text-align: right;
+} */

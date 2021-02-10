@@ -1,0 +1,26 @@
+{
+  "short_name": "IT Simple",
+  "name": "IT Simple Portal",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "placeholder_office.webp",
+      "type": "image/webp",
+      "sizes": "256x256"
+    },
+    {
+      "src": "placeholder_office_view.webp",
+      "type": "image/webp",
+      "sizes": "770x266"
+    }
+  ],
+  "start_url": "./#/",
+  "display": "standalone",
+  "theme_color": "#054AFA",
+  "background_color": "#ffffff",
+  "splash_pages": null
+}
